@@ -25,7 +25,7 @@ I wanted one small program that answers the simple questions: how much did my SS
 <tr>
 <td><img src="res/readme/settings.png" alt="Settings: which alerts you get, which drives are watched, how it measures"></td>
 <td valign="top">
-<img src="res/readme/alert.png" alt="An alert: a program writing far more than usual"><br><br>
+<img src="res/readme/alert_busy_day.png" alt="An alert: your SSD is having a busy day, twice the usual one"><br><br>
 <img src="res/readme/flyout.png" alt="The tray flyout: health, writing now and what was written today" width="60%">
 </td>
 </tr>
