@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="res/banner.png" alt="SSDWatch: see what your SSDs and your programs write, and know when to worry">
 </p>
 
