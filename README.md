@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="res/banner.png" alt="SSDWatch: see what your SSDs and your programs write, and know when to worry">
 </p>
 
@@ -26,7 +26,7 @@ I wanted one small program that answers the simple questions: how much did my SS
 <td><img src="res/readme/settings.png" alt="Settings: which alerts you get, which drives are watched, how it measures"></td>
 <td valign="top">
 <img src="res/readme/alert.png" alt="An alert: a program writing far more than usual"><br><br>
-<img src="res/readme/flyout.png" alt="The tray flyout: health, writing now and the trip of today" width="60%">
+<img src="res/readme/flyout.png" alt="The tray flyout: health, writing now and what was written today" width="60%">
 </td>
 </tr>
 </table>
@@ -35,7 +35,7 @@ I wanted one small program that answers the simple questions: how much did my SS
 
 - **Who wrote today.** Every program, with how much it wrote today, in the last 7 days or in 30 days, and a 30-day chart for each one.
 - **Real disk writes.** With administrator rights, SSDWatch counts what really reaches the drive, including what Windows writes later from its cache, and gives it to the program that wrote the file. Without them, it estimates from the programs' own counters.
-- **Odometer and trip.** The total the drive has received in its life, and what it received today, against your usual day (the median of the last 30 days).
+- **Odometer and written today.** The total the drive has received in its life, and what it received today, against your usual day (the median of the last 30 days).
 - **Health and wear.** For NVMe drives: percentage used, spare blocks, temperature, hours on and critical warnings, read from the drive itself.
 - **History.** One small file per day, kept 30, 90 or 365 days. Charts of 14, 30 or 90 days, the busiest day, and the programs of any day. Export to CSV.
 - **Alerts you choose:**
@@ -44,7 +44,7 @@ I wanted one small program that answers the simple questions: how much did my SS
   - a day that doubles your usual one.
   An alert can be closed, or a program quieted until tomorrow.
 - **Several SSDs.** Every NVMe and SATA SSD is found and can be watched or left out. Pick one drive or all of them in every view. Hard disks are left out.
-- **Tray.** It keeps watching from the tray. The icon turns orange during an alert; a click shows the health, what is being written now and the trip of today.
+- **Tray.** It keeps watching from the tray. The icon turns orange during an alert; a click shows the health, what is being written now and what was written today.
 - **Starts with Windows,** with administrator rights and without asking each time, through a scheduled task that you turn on once in Settings.
 - **Light and dark,** following Windows or chosen by you. Tips on every control, which you can turn off.
 
@@ -94,3 +94,4 @@ Read the full terms in [LICENSE.md](LICENSE.md) (English) or [LICENCIA.md](LICEN
 If you like SSDWatch and want to support its development, you can buy me a coffee.
 
 <a href="https://ko-fi.com/edukode"><img src="res/support-kofi.svg" alt="Buy me a coffee on Ko-fi" width="220"></a>
+
