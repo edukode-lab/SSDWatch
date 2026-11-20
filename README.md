@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="res/banner.png" alt="SSDWatch: see what your SSDs and your programs write, and know when to worry">
+  <img src="res/banner.png?v=2" alt="SSDWatch: see what your SSDs and your programs write, and know when to worry">
 </p>
 
 # SSDWatch
