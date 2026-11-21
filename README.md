@@ -7,9 +7,9 @@
 **SSDWatch shows how much your SSD receives every day, which programs wrote it, and how healthy the drive is.** It sits in the tray, keeps a day-by-day history, and warns you when a program writes a lot in one go or in a day, when a drive passes a limit you set, or when the drive itself reports a problem. Nothing it warns about depends on a "usual" day it has to learn first. It is a small native Windows program: no account, no telemetry, nothing sent anywhere.
 
 <!-- DRAFT: this story is a first draft written for you to correct or rewrite in your own words. -->
-## The story behind SSDWatch
+## Why use it?
 
-SSDs wear out as they are written, and I never knew how much mine was being written, or by whom. Windows shows that a disk is busy, but not what it received over a day, which program was behind it, or whether today is normal. The tools that tell you the health of a drive show one number; the ones that show per-program activity forget everything when you close them.
+SSDs wear out as they are written, and you never knew how much was being written, or by whom. Windows shows that a disk is busy, but not what it received over a day, which program was behind it, or whether today is normal. The tools that tell you the health of a drive show one number; the ones that show per-program activity forget everything when you close them.
 
 I wanted one small program that answers the simple questions: how much did my SSD get today, who wrote it, is that a normal day, and is the drive still healthy? SSDWatch is that program. Like Vizor, it was built with AI, but every design decision and every detail was mine, and each change was tried in the real program before it was saved.
 
