@@ -58,14 +58,14 @@ I wanted one small program that answers the simple questions: how much did my SS
 
 ## Download and install
 
-Download `SSDWatch-0.2.0-Setup.exe` from the [Releases](https://github.com/edukode-lab/SSDWatch/releases) page and run it. It asks for administrator rights once, installs SSDWatch in `Program Files`, adds it to the Start menu and, if you leave the box checked, sets it to start with Windows. Updating is the same: run the new installer over the old one. Your history and settings are kept.
+Download `SSDWatch-0.3.0-Setup.exe` from the [Releases](https://github.com/edukode-lab/SSDWatch/releases) page and run it. It asks for administrator rights once, installs SSDWatch in `Program Files`, adds it to the Start menu and, if you leave the box checked, sets it to start with Windows. Updating is the same: run the new installer over the old one. Your history and settings are kept.
 
 To remove it, use **Installed apps** in Windows. The uninstaller also removes the "start with Windows" task, and asks whether to delete your history and settings too.
 
 **Check your download.** Every release lists the **SHA-256** of the installer. After downloading, compare it with the one on the Releases page. In PowerShell:
 
 ```powershell
-Get-FileHash .\SSDWatch-0.2.0-Setup.exe -Algorithm SHA256
+Get-FileHash .\SSDWatch-0.3.0-Setup.exe -Algorithm SHA256
 ```
 
 If the two values are not identical, do not run the program. Delete it and download it again from this page.
@@ -78,10 +78,7 @@ If the two values are not identical, do not run the program. Delete it and downl
 
 **Administrator rights.** SSDWatch works without them, estimating what each program writes. To count the real writes to the drive it needs administrator rights: use **Restart as administrator** in Settings, or turn on **Start with Windows**, which asks once and then starts it with those rights at every sign-in.
 
-> [!NOTE]
-> **The release you can download today is version 0.2.0, an earlier design.** It has a busy-day alert and a speed alert, no Alerts tab and no rated-TBW setting. This page describes the next version, which has not been released yet.
-
-**SSDWatch is version 0.2.0. Use it at your own risk.** It only reads information from your drives and from Windows, and it does not change your files, but its numbers are measurements and estimates, not guarantees. It is provided "as is", without warranty, as the [license](LICENSE.md) explains. If you find a problem, please [open an issue](https://github.com/edukode-lab/SSDWatch/issues).
+**SSDWatch is version 0.3.0. Use it at your own risk.** It only reads information from your drives and from Windows, and it does not change your files, but its numbers are measurements and estimates, not guarantees. It is provided "as is", without warranty, as the [license](LICENSE.md) explains. If you find a problem, please [open an issue](https://github.com/edukode-lab/SSDWatch/issues).
 
 ## Technical details
 
